@@ -8,7 +8,7 @@ time complexity, edge cases, a non-Stream solution, and optimization.
 
 
 
-1. Java Streams — Basic
+### 1. Java Streams — Basic
 
 1. Find the first non-repeated element in a List using Streams.
 
@@ -50,7 +50,7 @@ time complexity, edge cases, a non-Stream solution, and optimization.
 
 20. Find the square of every number.
 
-2. String + Streams
+### 2. String + Streams
 
 21. Find the first non-repeated character in a String. Example: "swiss" → w.
 
@@ -63,8 +63,6 @@ time complexity, edge cases, a non-Stream solution, and optimization.
 25. Find unique characters.
 
 26. Count vowels in a String.
-
-
 
 27. Count consonants in a String.
 
@@ -94,7 +92,7 @@ time complexity, edge cases, a non-Stream solution, and optimization.
 
 40. Find all words that occur more than once in a sentence.
 
-3. Array/List Problems
+### 3. Array/List Problems
 
 41. Remove duplicate elements from an ArrayList.
 
@@ -138,7 +136,7 @@ time complexity, edge cases, a non-Stream solution, and optimization.
 
 
 
-4. Map + Streams
+### 4. Map + Streams
 
 61. Sort a Map by key.
 
@@ -160,7 +158,7 @@ time complexity, edge cases, a non-Stream solution, and optimization.
 
 70. Find employees grouped by department.
 
-5. Employee-Based Questions
+### 5. Employee-Based Questions
 
 71. Find the employee with the highest salary.
 
@@ -202,7 +200,7 @@ time complexity, edge cases, a non-Stream solution, and optimization.
 
 90. Sort employees first by department and then by salary.
 
-6. Advanced Java 8 / Interview Level
+### 6. Advanced Java 8 / Interview Level
 
 91. Find duplicate employees based on employee ID.
 
@@ -228,7 +226,7 @@ time complexity, edge cases, a non-Stream solution, and optimization.
 
 
 
-15 Questions to Practice First
+### 15 Questions to Practice First
 
 1. First non-repeated element — groupingBy, counting, LinkedHashMap, Optional
 
@@ -262,7 +260,7 @@ time complexity, edge cases, a non-Stream solution, and optimization.
 
 
 
-Key pattern from your current practice
+### Key pattern from your current practice
 
 For a first non-repeated element, a common approach is groupingBy + Function.identity() + counting(),
 
@@ -276,22 +274,7 @@ a value exists; prefer orElse(), orElseGet(), orElseThrow(), etc.
 
 
 
-create readme.md file for same
 
-Your README.md file is ready.
-
-MD icon
-README
- MD 
-Open
-This README file provides a structured overview of the 100 questions, categorized by topic, along with the interview philosophy and foundational patterns you requested for your 5-year experience level preparation.
-
-
-
-
-Gemini is AI and can make mistakes.
-
-Analyzing
 # 100 Java Coding Questions (Java 8+)
 
 A comprehensive collection of Java 8+ coding challenges focusing on Streams, Collections, and Lambdas, curated for 5-year+ experienced professionals preparing for technical interviews.
