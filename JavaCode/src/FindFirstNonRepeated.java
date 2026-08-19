@@ -9,7 +9,7 @@ public class FindFirstNonRepeated {
     public static void main(String[] args) {
         List<Character> list = Arrays.asList('A','B','C','B','D','A');
         Character key = list.stream()
-                .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
+                .collect(Collectors.groupingBy(x->x, Collectors.counting()))
                 .entrySet().stream()
                 .filter(e -> e.getValue() == 1)
                 .findFirst().map(Map.Entry::getKey).orElse(null);
