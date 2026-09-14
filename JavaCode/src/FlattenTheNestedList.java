@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
@@ -17,5 +18,22 @@ public class FlattenTheNestedList {
 
         List<Integer> list2 = list.stream().flatMap(e -> e instanceof List ? ((List<Integer>) e).stream() : Stream.of((Integer) e)).toList();
         System.out.println(list2);
+
+        FlattenTheNestedList flattenTheNestedList  = new FlattenTheNestedList();
+        System.out.println(flattenTheNestedList.flatern(list    ));
+
+
+    }
+
+    List <Integer> flatern(List<Object> list){
+        List<Integer> flatList = new ArrayList<>();
+        for(Object item:list){
+            if(item instanceof List){
+                flatList.addAll(flatern((List<Object>) item));
+            }else{
+                flatList.add((Integer) item);
+            }
+        }
+        return flatList;
     }
 }
