@@ -1,11 +1,9 @@
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.List;
 import java.util.Map;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 
-public class FindFirstNonRepeated {
+public class O01FindFirstNonRepeated {
     public static void main(String[] args) {
         List<Character> list = Arrays.asList('A','B','C','B','D','A');
         Character key = list.stream()
