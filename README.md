@@ -8,7 +8,7 @@ time complexity, edge cases, a non-Stream solution, and optimization.
 
 
 
-### 1. Java Streams — Basic
+## 1. Java Streams — Basic
 
 1. Find the first non-repeated element in a List using Streams.
 
